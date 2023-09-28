@@ -55,3 +55,50 @@ opacity:0.5;
     border:3px solid white;
 
 }
+.social-icons{
+    position:absolute;
+    top:550px;
+    left :180px;
+}
+.social-icons img{
+    margin:30px 100px;
+    align-items:center;
+ 
+}
+#experience{
+    background-image:url("images/skillssectionimage.avif");
+}
+main section{
+    height:50vh;
+    width:100%;
+}
+main section:nth-child(2n){
+background-color:rgb(229, 255, 220);
+}
+main section:nth-child(2n-1){
+    background-color:rgb(200, 207, 169);
+    }
+#skills{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    position:relative;
+    height:120vh;
+    width:100%;
+    align-items: flex-start;
+    z-index:-1;
+}
+#skills .section-headings{
+    margin-top:15%;
+    margin-left:47%;
+
+}
+.skills-values{
+ margin-top:40%;
+}
+.section-headings{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:35px;
+    font-weight:bold;
+    color:rgb(112, 5, 158);
+}
